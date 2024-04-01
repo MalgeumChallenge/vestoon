@@ -1,14 +1,15 @@
+# https://www.acmicpc.net/problem/16401
 import sys
 input = sys.stdin.readline
 
 M, N = map(int, input().split())
 arr = list(map(int, input().split()))
-arr.sort(reverse=True)
+arr.sort(reverse=True) # 꺼내기 좋게 역순으로 정렬
 
-def check(k):
+def check(k): # 결정함수
     cnt = M
     for cookie in arr:
-        if cookie < k:
+        if cookie < k: # 정렬되어 있기 때문에 리턴
             return False
         
         cnt -= cookie//k
@@ -18,6 +19,7 @@ def check(k):
     
     return False
 
+# 매개변수 탐색 사용
 lo = 1
 hi = max(arr)+1
 if not check(lo):
