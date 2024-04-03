@@ -19,7 +19,6 @@ def check(k): # 결정함수
     
     return False
 
-# 매개변수 탐색 사용
 lo = 1
 hi = max(arr)+1
 if not check(lo):
