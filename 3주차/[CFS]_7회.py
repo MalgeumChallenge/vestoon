@@ -1,3 +1,4 @@
+# https://codeforces.com/contest/1955/problem/C
 import sys
 from collections import deque
 input = sys.stdin.readline
