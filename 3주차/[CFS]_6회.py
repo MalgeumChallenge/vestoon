@@ -1,3 +1,4 @@
+# https://codeforces.com/contest/1955/problem/B
 import sys
 input = sys.stdin.readline
 
