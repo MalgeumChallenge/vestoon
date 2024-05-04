@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/23304
 def isAkaraka(target) :
     if len(target) == 1:
         return True
