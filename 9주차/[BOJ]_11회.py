@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/2150
 import sys
 import collections
 sys.setrecursionlimit(10000)
