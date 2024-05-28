@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/31845
 import sys
 import collections
 input = sys.stdin.readline
